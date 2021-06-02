@@ -1,0 +1,226 @@
+/* BASIC CSS STARTS*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap'); 
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+ul li {
+    list-style: none;
+}
+p,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+.clr{
+    clear: both;
+}
+.full_wapper{
+    width: 100%;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1,span{
+    color: #7e8287;
+}
+/* BASIC CSS ENDS*/
+
+
+/* HEADER CSS STARTS*/
+
+.header-bg{
+    background-color: #02918c;
+    height: 60px;
+}
+.logo{
+    width: 25%;
+    float: left;
+}
+.logo a{
+    font-size: 26px;
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 9px;
+}
+.logo a span{
+    color: #f6ee0a;
+}
+.menu{
+    width: 75%;
+    float: left;
+}
+.menu ul{
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 800;
+    transition: all .5s linear;
+    margin-top: 18px;
+    padding: 0 23px;
+}
+.menu ul li a:hover{
+    color: #cfc91d;
+}
+
+
+/* HEADER CSS ENDS*/
+
+/* BANNER CSS STARTS*/
+
+.banner{
+    background: url(../images/banner.jpg);
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(245, 237, 237, 0.164);
+}
+.banner .content{
+    color: #fff;
+    text-align: center;
+    padding-top: 210px;
+}
+.banner .content p{
+    font-size: 24px;
+}
+.banner .content h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.banner .content h4{
+    font-size: 15px;
+    font-weight: normal;
+}
+
+
+/* BANNER CSS ENDS*/
+
+/* ABOUT CSS STARTS*/
+.about .container h1{
+    color: #02918c;
+    padding: 98px 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+.about .container p{
+    padding: 1px 50px 30px;
+}
+.about .container p span{
+    font-weight: bold;
+}
+/* ABOUT CSS ENDS */
+
+/* PRODUCT CSS STARTS */
+.product .container{
+    display: flex;
+    margin-top: 50px;
+}
+.product .container .light{
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.product .container .pencil{
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.product .container .settings{
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.product .container .computer{
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* PRODUCT CSS ENDS */
+
+
+/* PRODUCT CSS STARTS */
+
+.service{
+    background: url(../images/service.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: relative;
+    padding: 40px 0;
+}
+.service .service-area{
+    width: 50%;
+}
+.service .container .services{
+    color: #02918c;
+    text-transform: uppercase;
+}
+.service .container .service-param{
+    padding-top: 20px;
+}
+.service .service-product{
+    display: inline-flex;
+    padding-top: 40px;
+}
+.service .service-product1{
+    display: inline-flex;
+    padding-top: 40px;
+}
+
+/* PRODUCT CSS ENDS */
+
+/* PRODUCT CSS STARTS */
+.mywork{
+    padding: 60px;
+}
+.mywork h1{
+    color: #02918c;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.mywork p{
+    text-align: center;
+    padding: 20px 50px 0;
+}
+
+
+/* PRODUCT CSS ENDS */
+
+/* CONTACT CSS STARTS */
+
+.contact-area{
+    text-align: center;
+    padding: 50px;
+}
+.contact-area h1{
+    text-transform: uppercase;
+    color: #02918c;
+    padding-bottom: 20px;
+}
+
+/* CONTACT CSS ENDS */
+
